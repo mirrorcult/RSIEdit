@@ -3,7 +3,6 @@
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/release-25.05";
-    self.submodules = true;
   };
 
   outputs = { self, nixpkgs }: {
