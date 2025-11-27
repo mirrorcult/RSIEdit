@@ -23,7 +23,7 @@
       , glew
       , makeDesktopItem
       , copyDesktopItems
-      , wrapGAppsHook
+      , wrapGAppsHook3
       , gtk3
       , pango
       , cairo
@@ -54,7 +54,7 @@
           "Editor/Editor.csproj"
         ];
 
-        nativeBuildInputs = [ wrapGAppsHook copyDesktopItems ];
+        nativeBuildInputs = [ wrapGAppsHook3 copyDesktopItems ];
         buildInputs = [ gtk3 ];
 
         dontWrapGApps = true;
